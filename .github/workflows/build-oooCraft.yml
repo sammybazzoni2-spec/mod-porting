@@ -14,25 +14,25 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: |
-            8
-            17
+          java-version: 21
 
       # Forge's maven no longer serves the 1.12.2 userdev jar that ForgeGradle 2/3 need,
-      # so build inside the maintained RetroFuturaGradle 1.12.2 template instead.
+      # so build inside the maintained RetroFuturaGradle 1.12.2 template (CleanroomMC/TemplateDevEnv) instead.
       - name: Fetch template
-        run: git clone --depth 1 https://github.com/GTNewHorizons/ExampleMod1.12 template
+        run: git clone --depth 1 https://github.com/CleanroomMC/TemplateDevEnv template
 
       - name: Overlay OooCraft sources
         run: |
           cd template
+          echo "--- template tree ---"; find . -path ./.git -prune -o -type f -not -path './src/main/resources/assets/*' -print | head -60
           rm -rf src/main/java src/main/resources
           mkdir -p src/main
           cp -r ../OooCraft-1.12.2/src/main/java src/main/java
           cp -r ../OooCraft-1.12.2/src/main/resources src/main/resources
           echo "--- template gradle.properties ---"
           cat gradle.properties
-          sed -i -E 's/^modName *=.*/modName = OooCraft/; s/^modId *=.*/modId = ooocraft/; s/^modGroup *=.*/modGroup = com.thecramp/' gradle.properties
+          sed -i -E 's/^(mod_?[Nn]ame) *=.*/\1 = OooCraft/; s/^(mod_?[Ii]d) *=.*/\1 = ooocraft/; s/^(mod_?[Gg]roup) *=.*/\1 = com.thecramp/' gradle.properties
+          echo "--- patched gradle.properties ---"; cat gradle.properties
 
       - name: Build
         working-directory: template
