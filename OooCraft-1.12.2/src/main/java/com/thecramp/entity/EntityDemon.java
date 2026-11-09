@@ -48,4 +48,4 @@ public class EntityDemon extends EntityMob {
          }
       }
    }
-Demon0}
+}

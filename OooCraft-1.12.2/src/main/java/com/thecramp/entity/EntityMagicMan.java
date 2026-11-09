@@ -50,4 +50,4 @@ public class EntityMagicMan extends EntityMob {
          }
       }
    }
-MagicMan0}
+}

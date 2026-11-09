@@ -47,4 +47,4 @@ public class EntityFinnParadox extends EntityMob {
          }
       }
    }
-FinnParadox0}
+}

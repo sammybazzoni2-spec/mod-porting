@@ -47,4 +47,4 @@ public class EntityDarren extends EntityMob {
          }
       }
    }
-Darren0}
+}
