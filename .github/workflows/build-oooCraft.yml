@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 21
+          java-version: 25
 
       # Forge's maven no longer serves the 1.12.2 userdev jar that ForgeGradle 2/3 need,
       # so build inside the maintained RetroFuturaGradle 1.12.2 template (CleanroomMC/TemplateDevEnv) instead.
@@ -31,7 +31,8 @@ jobs:
           cp -r ../OooCraft-1.12.2/src/main/resources src/main/resources
           echo "--- template gradle.properties ---"
           cat gradle.properties
-          sed -i -E 's/^(mod_?[Nn]ame) *=.*/\1 = OooCraft/; s/^(mod_?[Ii]d) *=.*/\1 = ooocraft/; s/^(mod_?[Gg]roup) *=.*/\1 = com.thecramp/' gradle.properties
+          sed -i -E 's/^mod_id *=.*/mod_id = ooocraft/; s/^mod_name *=.*/mod_name = OooCraft/; s/^root_package *=.*/root_package = com.thecramp/; s/^mod_version *=.*/mod_version = 0.2/; s/^mod_authors *=.*/mod_authors = TheCramp/' gradle.properties
+          sed -i 's/\${version}/0.2/; s/\${mcversion}/1.12.2/' src/main/resources/mcmod.info
           echo "--- patched gradle.properties ---"; cat gradle.properties
 
       - name: Build
