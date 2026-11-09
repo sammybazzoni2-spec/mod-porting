@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "O"
+  ],
+  "key": {
+    "X": {
+      "item": "ooocraft:demon_blood"
+    },
+    "O": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "ooocraft:lich_shard",
+    "count": 1
+  }
+}

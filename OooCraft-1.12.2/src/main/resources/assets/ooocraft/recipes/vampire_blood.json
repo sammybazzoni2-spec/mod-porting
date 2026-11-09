@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "ooocraft:corrupted_spell"
+    },
+    "Y": {
+      "item": "ooocraft:demon_blood"
+    }
+  },
+  "result": {
+    "item": "ooocraft:vampire_blood",
+    "count": 1
+  }
+}

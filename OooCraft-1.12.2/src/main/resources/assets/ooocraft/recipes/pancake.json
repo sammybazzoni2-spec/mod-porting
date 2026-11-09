@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:wheat"
+    },
+    "O": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "ooocraft:pancake",
+    "count": 1
+  }
+}

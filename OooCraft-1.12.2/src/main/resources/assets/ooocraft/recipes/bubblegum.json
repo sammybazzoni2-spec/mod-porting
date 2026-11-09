@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "ooocraft:bubblegum",
+    "count": 1
+  }
+}

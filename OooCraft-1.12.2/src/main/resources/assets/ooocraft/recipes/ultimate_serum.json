@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "ZZZ",
+    "DEF"
+  ],
+  "key": {
+    "A": {
+      "item": "ooocraft:bubblegum_serum"
+    },
+    "B": {
+      "item": "ooocraft:banana_serum"
+    },
+    "C": {
+      "item": "ooocraft:strawberry_serum"
+    },
+    "D": {
+      "item": "ooocraft:chocolate_serum"
+    },
+    "E": {
+      "item": "ooocraft:toffee_serum"
+    },
+    "F": {
+      "item": "ooocraft:peppermint_serum"
+    },
+    "Z": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "ooocraft:ultimate_serum",
+    "count": 1
+  }
+}

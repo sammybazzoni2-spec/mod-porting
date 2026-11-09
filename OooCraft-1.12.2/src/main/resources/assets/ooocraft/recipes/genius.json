@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XOX",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:red_flower",
+      "data": 32767
+    },
+    "O": {
+      "item": "ooocraft:brewing_spell"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ooocraft:genius",
+    "count": 1
+  }
+}

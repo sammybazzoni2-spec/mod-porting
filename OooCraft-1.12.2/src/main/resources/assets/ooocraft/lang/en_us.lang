@@ -1,0 +1,91 @@
+
+item.dBlood.name=Demon Blood
+item.demonSword.name=Demon Blood Sword
+entity.entityDemon.name=Demon
+item.dIngot.name=Demon Blood Ingot
+item.demonPick.name=Demon Blood Pickaxe
+item.DemonEye.name=Demon Eye
+itemGroup.Demon=Demon Items
+
+# Grass Category
+
+item.grassSword.name=Blade of Grass
+tile.grassBunch.name=Bunch of Grass
+tile.hardGrass.name=Hardened Grass
+entity.entityDarren.name=Darren the Ancient Sleeper
+itemGroup.Grass=Grass Items
+
+# Bubblegum Category
+
+item.bubblegum.name=Candy
+item.bubblegumSerum.name=Candy Serum
+item.chocolateSerum.name=Chocolate Serum
+item.toffeeSerum.name=Toffee Serum
+item.peppermintSerum.name=Peppermint Serum
+item.bananaSerum.name=Banana Serum
+item.strawberrySerum.name=Strawberry Serum
+item.ultimateSerum.name=The Ultimate Formula
+itemGroup.Science=Candy Science
+msg.spoon.txt=Healed!
+item.spoon.name=Spoon of Prosperity
+
+# Ice Category
+
+entity.entityGunter.name=Gunter
+item.iceCrown.name=Ice Crown
+item.iceGem.name=Gem of Ice
+
+
+
+# Other Category
+
+item.HoloPlayer.name=Dad's Holo Player
+msg.test.txt=You Place the Holo Player on the Floor. Joshua the Dog's words inspire you to fight harder, faster and stronger!
+msg.ultimate.txt=You Spill the Formula On the Floor, Unleashing the Power of Friendship to give you Ultimate Buffs!
+entity.entityMagicMan.name=Magic Man
+msg.finn.txt=Eek! I'm Scared of the Ocean!
+item.finnHat.name=Finn's Hat
+itemGroup.Characters=Heroes And Villains
+item.heroFabric.name=Hero's Fabric
+item.scarletSword.name=The Scarlet
+item.finnSword.name=The Finn Sword
+entity.entityFinnParadox.name=Finn Time Paradox
+item.marcyAxe.name=Marceline's Axe
+item.brewingSpell.name=Brewing Spell
+msg.finnsword.1.txt=Hey Me! So, we kinda created a paradox in time, huh? Rad!
+msg.finnsword.2.txt=Never thought I'd become a sword. It's pretty sweet, actually.
+msg.finnsword.3.txt=How are you getting along with FP? Oh... That's right, she dumped you. Sorry.
+msg.finnsword.4.txt=Are you getting on with that mission?
+msg.finnsword.5.txt=I bet you're wishing you could block, huh? Well, this sword pays off for that by being my strongest sword so far!
+msg.finnsword.6.txt=Shouldn't we be fighting something right now?
+msg.finnsword.7.txt=Glob, you look tired. maybe you should take a nap.
+msg.finnsword.8.txt=*Humming* You... A-A-A-A-ARRREEEE MY BEST FRIENDS IN THE WORLD. Oh, sorry forgot you needed to concentrate on fighting.
+msg.finnsword.9.txt=Let's slay these momma-jammas!
+msg.finnsword.0.txt=I smell cooking! Is it Bacon Pancakes? Or maybe Finn-Cakes? Delicious.
+item.vBlood.name=Vampire Blood
+item.genius.name=Ash's Flower Wand
+item.corruptedSpell.name=Corrupted Brewing Spell
+item.shinyNetherWart.name=Shiny Wart
+entity.entityJamesBaxter.name=James Baxter
+entity.entityLich.name=The Lich
+item.sweater.name=The Sweater
+tile.dimension1Portal.name=Lumpy Space Portal
+tile.lumpyGrass.name=Lumpy Space Grass
+itemGroup.Lumpy=Lumpy Space
+tile.lumpyDirt.name=Lumpy Space Dirt
+entity.entityLemongrab.name=Earl of Lemongrab
+itemGroup.Boss=OooCraft Bosses
+itemGroup.OooCrafting=OooCraft Crafting Items
+itemGroup.OooBlock=OooCraft Blocks
+itemGroup.OooWeapons=OooCraft Armoury
+item.lichShard.name=Lich Power Shard
+item.enchiridion.name=The Enchiridion
+item.lemon.name=Lemon Harp
+item.lemonShard.name=Lemon Shard
+generator.biomeDimension1=Ooo World Gen
+tile.lemonDirt.name=Lemon Dirt
+tile.lemonGrass.name=Lemon Grass
+item.meatloaf.name=Meatloaf
+itemGroup.OooFood=OooCraft Food
+item.pancake.name=Pancake
+item.baconPancake.name=Bacon Pancake

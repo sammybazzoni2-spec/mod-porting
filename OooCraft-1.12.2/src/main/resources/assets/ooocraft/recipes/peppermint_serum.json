@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "YCY",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:redstone"
+    },
+    "Y": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "ooocraft:bubblegum_serum"
+    }
+  },
+  "result": {
+    "item": "ooocraft:peppermint_serum",
+    "count": 1
+  }
+}

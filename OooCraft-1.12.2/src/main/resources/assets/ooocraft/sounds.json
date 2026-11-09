@@ -1,0 +1,29 @@
+{
+  "holo_message": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "ooocraft:holo_message",
+        "stream": false
+      }
+    ]
+  },
+  "ultimate_serum": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "ooocraft:ultimate_serum",
+        "stream": false
+      }
+    ]
+  },
+  "genius": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "ooocraft:genius",
+        "stream": false
+      }
+    ]
+  }
+}

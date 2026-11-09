@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_nugget"
+    },
+    "C": {
+      "item": "ooocraft:bubblegum_serum"
+    }
+  },
+  "result": {
+    "item": "ooocraft:banana_serum",
+    "count": 1
+  }
+}

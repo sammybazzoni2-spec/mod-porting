@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "ooocraft:bubblegum_serum"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ooocraft:spoon",
+    "count": 1
+  }
+}

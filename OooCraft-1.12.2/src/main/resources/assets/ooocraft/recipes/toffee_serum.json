@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "YCY",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cookie"
+    },
+    "Y": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "ooocraft:bubblegum_serum"
+    }
+  },
+  "result": {
+    "item": "ooocraft:toffee_serum",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "B",
+    "C"
+  ],
+  "key": {
+    "X": {
+      "item": "ooocraft:bubblegum"
+    },
+    "C": {
+      "item": "minecraft:glass_bottle"
+    },
+    "B": {
+      "item": "ooocraft:brewing_spell"
+    }
+  },
+  "result": {
+    "item": "ooocraft:bubblegum_serum",
+    "count": 1
+  }
+}

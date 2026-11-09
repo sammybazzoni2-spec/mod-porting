@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XOX",
+    "OSO",
+    "XOX"
+  ],
+  "key": {
+    "X": {
+      "item": "ooocraft:lich_shard"
+    },
+    "O": {
+      "item": "minecraft:feather"
+    },
+    "S": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "ooocraft:enchiridion",
+    "count": 1
+  }
+}

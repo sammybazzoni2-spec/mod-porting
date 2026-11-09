@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "ooocraft",
+    "name": "OooCraft",
+    "description": "An Adventure Time themed mod: the Land of Ooo, Lemongrab, the Lich, Finn and more.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "TheCramp"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

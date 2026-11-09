@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " C ",
+    " C "
+  ],
+  "key": {
+    "X": {
+      "item": "ooocraft:demon_ingot"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ooocraft:demon_pick",
+    "count": 1
+  }
+}

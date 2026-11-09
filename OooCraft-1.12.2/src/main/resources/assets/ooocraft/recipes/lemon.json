@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XOX",
+    "OSO",
+    "XOX"
+  ],
+  "key": {
+    "X": {
+      "item": "ooocraft:lemon_shard"
+    },
+    "O": {
+      "item": "minecraft:string"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ooocraft:lemon",
+    "count": 1
+  }
+}

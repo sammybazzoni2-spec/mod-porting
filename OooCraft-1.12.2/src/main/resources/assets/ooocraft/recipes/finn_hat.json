@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "ooocraft:hero_fabric"
+    }
+  },
+  "result": {
+    "item": "ooocraft:finn_hat",
+    "count": 1
+  }
+}

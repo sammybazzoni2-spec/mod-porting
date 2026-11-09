@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "ooocraft:bubblegum_serum"
+    },
+    "B": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ooocraft:holo_player",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "ooocraft:pancake"
+    },
+    "O": {
+      "item": "minecraft:cooked_porkchop"
+    }
+  },
+  "result": {
+    "item": "ooocraft:bacon_pancake",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CXC",
+    "XOX",
+    "CXC"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "ooocraft:demon_blood"
+    },
+    "O": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "ooocraft:demon_eye",
+    "count": 1
+  }
+}

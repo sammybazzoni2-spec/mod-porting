@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XCX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cookie"
+    },
+    "C": {
+      "item": "ooocraft:bubblegum_serum"
+    }
+  },
+  "result": {
+    "item": "ooocraft:chocolate_serum",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "C"
+  ],
+  "key": {
+    "X": {
+      "item": "ooocraft:hard_grass"
+    },
+    "C": {
+      "item": "minecraft:vine"
+    }
+  },
+  "result": {
+    "item": "ooocraft:grass_sword",
+    "count": 1
+  }
+}

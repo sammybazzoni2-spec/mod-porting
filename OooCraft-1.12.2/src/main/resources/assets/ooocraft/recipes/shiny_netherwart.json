@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "O"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:emerald"
+    },
+    "O": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "ooocraft:shiny_netherwart",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "C"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_block"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ooocraft:scarlet_sword",
+    "count": 1
+  }
+}
