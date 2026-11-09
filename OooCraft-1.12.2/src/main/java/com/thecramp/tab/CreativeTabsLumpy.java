@@ -12,7 +12,7 @@ public class CreativeTabsLumpy extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.bananaSerum;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }

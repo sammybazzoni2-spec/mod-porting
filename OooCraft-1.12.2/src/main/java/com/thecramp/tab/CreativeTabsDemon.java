@@ -12,7 +12,7 @@ public class CreativeTabsDemon extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.demonSword;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }

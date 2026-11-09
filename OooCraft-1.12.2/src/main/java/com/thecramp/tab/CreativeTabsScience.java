@@ -12,7 +12,7 @@ public class CreativeTabsScience extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.bubblegum;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }

@@ -11,6 +11,6 @@ public class DemonBlood {
    }
 
    public static void initializeItem() {
-      dBlood = (new Item()).setUnlocalizedName("dBlood").setCreativeTab(MainRegistry.tabCrafting);
+      dBlood = (new Item()).setTranslationKey("dBlood").setCreativeTab(MainRegistry.tabCrafting);
    }
 }

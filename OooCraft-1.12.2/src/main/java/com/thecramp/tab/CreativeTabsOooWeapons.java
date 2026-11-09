@@ -12,7 +12,7 @@ public class CreativeTabsOooWeapons extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.scarletSword;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }

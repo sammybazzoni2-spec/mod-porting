@@ -12,7 +12,7 @@ public class CreatuveTabsOooBlock extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.demonPick;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }

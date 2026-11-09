@@ -11,6 +11,6 @@ public class DemonIngot {
    }
 
    public static void initializeItem() {
-      dIngot = (new Item()).setUnlocalizedName("dIngot").setCreativeTab(MainRegistry.tabCrafting);
+      dIngot = (new Item()).setTranslationKey("dIngot").setCreativeTab(MainRegistry.tabCrafting);
    }
 }

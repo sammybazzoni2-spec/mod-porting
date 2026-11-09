@@ -75,7 +75,7 @@ public class Dimension1Portal extends BlockPortal {
    }
 
    @Override
-   public void onEntityCollidedWithBlock(World world, BlockPos pos, IBlockState state, Entity entity) {
+   public void onEntityCollision(World world, BlockPos pos, IBlockState state, Entity entity) {
       if (!world.isRemote && !entity.isRiding() && !entity.isBeingRidden() && entity instanceof EntityPlayerMP) {
          EntityPlayerMP thePlayer = (EntityPlayerMP)entity;
          MinecraftServer server = thePlayer.getServer();

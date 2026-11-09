@@ -151,7 +151,7 @@ public class MainRegistry {
    public static ServerProxy proxy;
 
    private static Item name(Item item, String unlocalized, String registryName, CreativeTabs tab) {
-      item.setUnlocalizedName(unlocalized);
+      item.setTranslationKey(unlocalized);
       if (tab != null) {
          item.setCreativeTab(tab);
       }
@@ -160,7 +160,7 @@ public class MainRegistry {
    }
 
    private static Block name(Block block, String unlocalized, String registryName, CreativeTabs tab) {
-      block.setUnlocalizedName(unlocalized);
+      block.setTranslationKey(unlocalized);
       block.setCreativeTab(tab);
       block.setRegistryName(RefStrings.MODID, registryName);
       return block;
@@ -251,7 +251,7 @@ public class MainRegistry {
       Block[] blocks = new Block[]{grassBunch, hardGrass, lemonGrass, lemonDirt, lumpyGrass, lumpyDirt};
       for (Block block : blocks) {
          Item itemBlock = new ItemBlock(block).setRegistryName(block.getRegistryName());
-         itemBlock.setCreativeTab(block.getCreativeTabToDisplayOn());
+         itemBlock.setCreativeTab(block.getCreativeTab());
          event.getRegistry().register(itemBlock);
          ALL_ITEMS.add(itemBlock);
       }

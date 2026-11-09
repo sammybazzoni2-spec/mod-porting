@@ -12,7 +12,7 @@ public class CreativeTabsBoss extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.enchiridion;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }

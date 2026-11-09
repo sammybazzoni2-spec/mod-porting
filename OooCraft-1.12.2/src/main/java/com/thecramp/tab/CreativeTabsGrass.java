@@ -12,7 +12,7 @@ public class CreativeTabsGrass extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.grassSword;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }

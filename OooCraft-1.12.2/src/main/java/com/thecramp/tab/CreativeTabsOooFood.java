@@ -12,7 +12,7 @@ public class CreativeTabsOooFood extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.meatloaf;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }

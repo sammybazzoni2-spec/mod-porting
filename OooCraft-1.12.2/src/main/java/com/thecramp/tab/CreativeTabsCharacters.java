@@ -12,7 +12,7 @@ public class CreativeTabsCharacters extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.FinnHat;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }

@@ -12,7 +12,7 @@ public class CreativeTabsOooCrafting extends CreativeTabs {
    }
 
    @Override
-   public ItemStack getTabIconItem() {
+   public ItemStack createIcon() {
       Item icon = MainRegistry.bubblegumSerum;
       return new ItemStack(icon != null ? icon : Items.STICK);
    }
