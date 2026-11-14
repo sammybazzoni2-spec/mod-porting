@@ -1,0 +1,7 @@
+{
+ "parent": "block/ladder",
+ "textures": {
+  "particle": "candycraftmod:blocks/b53",
+  "texture": "candycraftmod:blocks/b53"
+ }
+}

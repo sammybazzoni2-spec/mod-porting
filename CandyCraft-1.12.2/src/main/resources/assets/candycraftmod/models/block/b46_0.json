@@ -1,0 +1,6 @@
+{
+ "parent": "block/crop",
+ "textures": {
+  "crop": "candycraftmod:blocks/b46_0"
+ }
+}

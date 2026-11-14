@@ -1,0 +1,16 @@
+[
+{
+  "modid": "candycraftmod",
+  "name": "CandyCraft",
+  "description": "That's a sweet mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://CandyCraftmod.com/",
+  "updateUrl": "",
+  "authorList": ["Valentin4311"],
+  "credits": "See http://CandyCraftmod.com/",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

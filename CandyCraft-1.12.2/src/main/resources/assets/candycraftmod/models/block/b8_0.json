@@ -1,0 +1,7 @@
+{
+ "parent": "block/template_farmland",
+ "textures": {
+  "dirt": "candycraftmod:blocks/b2",
+  "top": "candycraftmod:blocks/b8"
+ }
+}

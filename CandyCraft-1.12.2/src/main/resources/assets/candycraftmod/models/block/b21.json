@@ -1,0 +1,40 @@
+{
+ "textures": {
+  "all": "candycraftmod:blocks/b21",
+  "particle": "candycraftmod:blocks/b21"
+ },
+ "elements": [
+  {
+   "from": [
+    3.2,
+    0,
+    3.2
+   ],
+   "to": [
+    12.8,
+    1,
+    12.8
+   ],
+   "faces": {
+    "north": {
+     "texture": "#all"
+    },
+    "south": {
+     "texture": "#all"
+    },
+    "east": {
+     "texture": "#all"
+    },
+    "west": {
+     "texture": "#all"
+    },
+    "up": {
+     "texture": "#all"
+    },
+    "down": {
+     "texture": "#all"
+    }
+   }
+  }
+ ]
+}

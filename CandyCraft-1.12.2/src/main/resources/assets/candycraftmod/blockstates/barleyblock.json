@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "axis=y": {
+   "model": "candycraftmod:block/barleyblock"
+  },
+  "axis=x": {
+   "model": "candycraftmod:block/barleyblock",
+   "x": 90,
+   "y": 90
+  },
+  "axis=z": {
+   "model": "candycraftmod:block/barleyblock",
+   "x": 90
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "textures": {
+  "top": "candycraftmod:blocks/b69",
+  "end": "candycraftmod:blocks/b71",
+  "side": "candycraftmod:blocks/b72",
+  "bottom": "candycraftmod:blocks/b3",
+  "particle": "candycraftmod:blocks/b70"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    3,
+    0
+   ],
+   "to": [
+    16,
+    9,
+    16
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top"
+    },
+    "down": {
+     "texture": "#bottom"
+    },
+    "east": {
+     "texture": "#side"
+    },
+    "west": {
+     "texture": "#side"
+    },
+    "south": {
+     "texture": "#end"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "candycraftmod:block/b56x"
+  },
+  "facing=east": {
+   "model": "candycraftmod:block/b56x"
+  },
+  "facing=south": {
+   "model": "candycraftmod:block/b56x"
+  },
+  "facing=west": {
+   "model": "candycraftmod:block/b56x"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "parent": "block/cube_bottom_top",
+ "textures": {
+  "bottom": "candycraftmod:blocks/b67",
+  "top": "candycraftmod:blocks/b67",
+  "side": "candycraftmod:blocks/b67"
+ }
+}

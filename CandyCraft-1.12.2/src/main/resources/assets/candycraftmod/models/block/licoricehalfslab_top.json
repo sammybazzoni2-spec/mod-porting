@@ -1,0 +1,8 @@
+{
+ "parent": "block/upper_slab",
+ "textures": {
+  "bottom": "candycraftmod:blocks/b13",
+  "top": "candycraftmod:blocks/b13",
+  "side": "candycraftmod:blocks/b13"
+ }
+}

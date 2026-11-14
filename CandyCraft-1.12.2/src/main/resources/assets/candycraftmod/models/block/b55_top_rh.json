@@ -1,0 +1,7 @@
+{
+ "parent": "block/door_top_rh",
+ "textures": {
+  "bottom": "candycraftmod:blocks/b54",
+  "top": "candycraftmod:blocks/b55"
+ }
+}

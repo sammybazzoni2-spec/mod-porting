@@ -5,7 +5,7 @@ Ports of 1.7.10 mods to Minecraft 1.12.2 (Forge).
 | Mod | Status |
 |-----|--------|
 | `OooCraft-1.12.2/` | All classes ported; **uncompiled** (see its `PORT_NOTES.md`) |
-| CandyCraft | not yet ported |
+| `CandyCraft-1.12.2/` | All classes ported; compiled by CI (see its `PORT_NOTES.md`) |
 | CustomNPCs | not yet ported |
 
 The sources were written without access to a compiler, so expect some compile errors on first build.

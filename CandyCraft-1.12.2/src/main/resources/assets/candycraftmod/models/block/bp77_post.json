@@ -1,0 +1,7 @@
+{
+ "parent": "block/glass_pane_post",
+ "textures": {
+  "pane": "candycraftmod:blocks/b77",
+  "edge": "candycraftmod:blocks/b22"
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "multipart": [
+  {
+   "apply": {
+    "model": "candycraftmod:block/b100_0"
+   }
+  }
+ ]
+}

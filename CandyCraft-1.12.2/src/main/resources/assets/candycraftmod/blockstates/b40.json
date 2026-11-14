@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "axis=x": {
+   "model": "candycraftmod:block/b40_ew"
+  },
+  "axis=z": {
+   "model": "candycraftmod:block/b40_ns"
+  }
+ }
+}

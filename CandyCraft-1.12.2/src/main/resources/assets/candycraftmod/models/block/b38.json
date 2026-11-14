@@ -1,0 +1,8 @@
+{
+ "parent": "block/orientable",
+ "textures": {
+  "front": "candycraftmod:blocks/b38",
+  "side": "candycraftmod:blocks/b36",
+  "top": "candycraftmod:blocks/b12"
+ }
+}

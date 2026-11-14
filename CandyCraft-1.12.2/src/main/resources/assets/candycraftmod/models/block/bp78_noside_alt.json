@@ -1,0 +1,7 @@
+{
+ "parent": "block/glass_pane_noside_alt",
+ "textures": {
+  "pane": "candycraftmod:blocks/b78",
+  "edge": "candycraftmod:blocks/b22"
+ }
+}

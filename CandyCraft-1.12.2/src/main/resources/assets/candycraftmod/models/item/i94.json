@@ -1,0 +1,10 @@
+{
+ "parent": "item/generated",
+ "textures": {
+  "layer0": "candycraftmod:items/i94",
+  "layer1": "candycraftmod:items/i94_0",
+  "layer2": "candycraftmod:items/i94_1",
+  "layer3": "candycraftmod:items/i94_2",
+  "layer4": "candycraftmod:items/i94_3"
+ }
+}

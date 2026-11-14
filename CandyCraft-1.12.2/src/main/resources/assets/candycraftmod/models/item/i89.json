@@ -1,0 +1,20 @@
+{
+ "parent": "item/generated",
+ "textures": {
+  "layer0": "candycraftmod:items/i89"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "candycraftmod:fuse": 1
+   },
+   "model": "candycraftmod:item/i89_on"
+  },
+  {
+   "predicate": {
+    "candycraftmod:fuse": 2
+   },
+   "model": "candycraftmod:item/i89_warn"
+  }
+ ]
+}

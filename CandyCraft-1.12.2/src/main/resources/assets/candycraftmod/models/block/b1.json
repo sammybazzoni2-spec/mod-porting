@@ -1,0 +1,74 @@
+{
+ "textures": {
+  "particle": "candycraftmod:blocks/b0",
+  "top": "candycraftmod:blocks/b84",
+  "side": "candycraftmod:blocks/b0",
+  "bottom": "candycraftmod:blocks/b2",
+  "overlay": "candycraftmod:blocks/b83"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "up": {
+     "texture": "#top",
+     "tintindex": 0
+    },
+    "down": {
+     "texture": "#bottom"
+    },
+    "north": {
+     "texture": "#side"
+    },
+    "south": {
+     "texture": "#side"
+    },
+    "east": {
+     "texture": "#side"
+    },
+    "west": {
+     "texture": "#side"
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    16,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#overlay",
+     "tintindex": 0
+    },
+    "south": {
+     "texture": "#overlay",
+     "tintindex": 0
+    },
+    "east": {
+     "texture": "#overlay",
+     "tintindex": 0
+    },
+    "west": {
+     "texture": "#overlay",
+     "tintindex": 0
+    }
+   }
+  }
+ ]
+}

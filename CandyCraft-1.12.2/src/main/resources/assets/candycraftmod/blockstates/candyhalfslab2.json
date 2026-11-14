@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "half=bottom,variant=default": {
+   "model": "candycraftmod:block/candyhalfslab2"
+  },
+  "half=top,variant=default": {
+   "model": "candycraftmod:block/candyhalfslab2_top"
+  }
+ }
+}
