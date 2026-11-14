@@ -254,7 +254,7 @@ public class EntityKingSlime extends EntityGolem implements IMob, ICandyBoss {
    }
 
    @Override
-   protected void updateEntityActionState() {
+   protected void updateAITasks() {
       if (!this.isAwake) {
          this.motionX = 0.0D;
          this.motionZ = 0.0D;

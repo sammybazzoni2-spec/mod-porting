@@ -67,4 +67,18 @@ public class CandyEntityRegistry {
       registry.register(EntityEntryBuilder.create().entity(EntityKingBeetle.class).id(new ResourceLocation("candycraftmod", "entitykingbeetle"), CandyCraft.EntityKingBeetleID).name("EntityKingBeetle").tracker(80, 3, true)
          .egg(0x8DC444, 0xA500B3).build());
    }
+
+   /** Default mob drop used by several entities: 0-2 of the item, plus looting bonus. */
+   public static void dropDefault(net.minecraft.entity.Entity entity, net.minecraft.item.Item item, int lootingModifier) {
+      if (item == null) {
+         return;
+      }
+      int count = entity.world.rand.nextInt(3);
+      if (lootingModifier > 0) {
+         count += entity.world.rand.nextInt(lootingModifier + 1);
+      }
+      for(int i = 0; i < count; ++i) {
+         entity.dropItem(item, 1);
+      }
+   }
 }

@@ -68,7 +68,7 @@ public class EntityAIAvoidPlayerGinger extends EntityAIBase {
          return false;
       } else {
          this.entityPathEntity = this.entityPathNavigate.getPathToXYZ(vec3.x, vec3.y, vec3.z);
-         return this.entityPathEntity != null && this.entityPathEntity.isDestinationSame(vec3);
+         return this.entityPathEntity != null && this.entityPathEntity.getFinalPathPoint() != null && this.entityPathEntity.getFinalPathPoint().x == net.minecraft.util.math.MathHelper.floor(vec3.x) && this.entityPathEntity.getFinalPathPoint().z == net.minecraft.util.math.MathHelper.floor(vec3.z);
       }
    }
 

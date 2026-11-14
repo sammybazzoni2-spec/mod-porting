@@ -112,7 +112,7 @@ public class EntityTornadoSlime extends EntityLiving implements IMob {
    }
 
    @Override
-   protected void updateEntityActionState() {
+   protected void updateAITasks() {
       if (this.isInWater()) {
          this.motionY += 0.12D;
       }

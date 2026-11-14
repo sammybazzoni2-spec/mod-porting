@@ -728,7 +728,7 @@ public class WorldGenSlimeDungeon extends WorldGenerator {
       int i = pos.getX();
       int j = pos.getY();
       int k = pos.getZ();
-      world.getChunkFromBlockCoords(new BlockPos(i, 0, k));
+      world.getChunk(new BlockPos(i, 0, k));
       this.spawnRoom(world, random, i - 1, j - 1, k - 1);
       int r = random.nextInt(4);
       if (r == 0) {
@@ -768,7 +768,7 @@ public class WorldGenSlimeDungeon extends WorldGenerator {
       }
 
       this.genCoridor(world, random, i + 7, j, k - this.posX);
-      world.getChunkFromBlockCoords(new BlockPos(i, 0, k - 150));
+      world.getChunk(new BlockPos(i, 0, k - 150));
       this.genMiniBossRoom(world, random, i + 7, j, k - this.posX);
       this.genCoridor(world, random, i + 7, j - 2, k - this.posX);
       boolean b = random.nextBoolean();

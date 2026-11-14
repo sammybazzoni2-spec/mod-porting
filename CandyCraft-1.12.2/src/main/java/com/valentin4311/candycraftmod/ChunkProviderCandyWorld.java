@@ -9,7 +9,7 @@ import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.world.SpawnerAnimals;
+import net.minecraft.world.WorldEntitySpawner;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.Chunk;
@@ -390,7 +390,7 @@ public class ChunkProviderCandyWorld implements IChunkGenerator {
          k1 = k + 8;
          l1 = this.rand.nextInt(60) + 120;
          i2 = l + 8;
-         Chunk ch = this.worldObj.getChunkFromBlockCoords(new BlockPos(k1, 0, i2));
+         Chunk ch = this.worldObj.getChunk(new BlockPos(k1, 0, i2));
          this.worldObj.getChunkProvider().provideChunk(ch.x + 1, ch.z);
          this.worldObj.getChunkProvider().provideChunk(ch.x - 1, ch.z);
          this.worldObj.getChunkProvider().provideChunk(ch.x, ch.z + 1);
@@ -418,7 +418,7 @@ public class ChunkProviderCandyWorld implements IChunkGenerator {
          }
 
          biomegenbase.decorate(this.worldObj, this.rand, new BlockPos(k, 0, l));
-         SpawnerAnimals.performWorldGenSpawning(this.worldObj, biomegenbase, k + 8, l + 8, 16, 16, this.rand);
+         WorldEntitySpawner.performWorldGenSpawning(this.worldObj, biomegenbase, k + 8, l + 8, 16, 16, this.rand);
          k += 8;
          l += 8;
          doGen = TerrainGen.populate(this, this.worldObj, this.rand, par2, par3, flag, PopulateChunkEvent.Populate.EventType.ICE);

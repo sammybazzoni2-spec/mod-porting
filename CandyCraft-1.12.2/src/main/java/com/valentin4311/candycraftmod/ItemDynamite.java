@@ -71,7 +71,7 @@ public class ItemDynamite extends Item {
             Vec3d v = new Vec3d(((double)itemRand.nextFloat() - 0.5D) * 0.3D, (double)(-itemRand.nextFloat()) * 0.6D - 0.3D, 0.6D);
             v = v.rotatePitch(-player.rotationPitch * (float)Math.PI / 180.0F);
             v = v.rotateYaw(-(player.rotationYaw + 25.0F) * (float)Math.PI / 180.0F);
-            v = v.addVector(player.posX, player.posY + (double)player.getEyeHeight() + 0.3D, player.posZ);
+            v = v.add(player.posX, player.posY + (double)player.getEyeHeight() + 0.3D, player.posZ);
             player.world.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, v.x, v.y - 0.1D, v.z, 0.0D, 0.1D, 0.0D);
          }
       }

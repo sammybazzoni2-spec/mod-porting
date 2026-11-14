@@ -61,7 +61,7 @@ public class BlockCandyBed extends BlockHorizontal {
    }
 
    @Override
-   public boolean isBed(IBlockState state, IBlockAccess world, BlockPos pos, EntityLivingBase player) {
+   public boolean isBed(IBlockState state, IBlockAccess world, BlockPos pos, net.minecraft.entity.Entity player) {
       return true;
    }
 

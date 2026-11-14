@@ -1,5 +1,7 @@
 package com.valentin4311.candycraftmod;
 
+import net.minecraft.world.biome.Biome;
+
 import net.minecraft.world.gen.layer.GenLayer;
 import net.minecraft.world.gen.layer.IntCache;
 

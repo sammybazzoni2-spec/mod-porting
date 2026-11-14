@@ -99,7 +99,7 @@ public class WorldGenCandyTrees extends WorldGenerator {
                Block block2 = CandyGenUtil.getBlock(par1World, par3, par4 - 1, par5);
                boolean isSoil = block2.canSustainPlant(block2.getDefaultState(), par1World, new BlockPos(par3, par4 - 1, par5), EnumFacing.UP, (BlockCandySapling)CandyCraft.CandySapling);
                if (isSoil && par4 < 256 - l - 1) {
-                  block2.onPlantGrow(par1World, par3, par4 - 1, par5, par3, par4, par5);
+                  block2.onPlantGrow(block2.getDefaultState(), par1World, new BlockPos(par3, par4 - 1, par5), new BlockPos(par3, par4, par5));
                   byte b0 = 3;
                   byte b1 = 0;
 
@@ -198,7 +198,7 @@ public class WorldGenCandyTrees extends WorldGenerator {
             Block block1 = CandyGenUtil.getBlock(par1World, par3, par4 - 1, par5);
             boolean isSoil = block1.canSustainPlant(block1.getDefaultState(), par1World, new BlockPos(par3, par4 - 1, par5), EnumFacing.UP, (BlockCandySapling)CandyCraft.CandySapling);
             if (isSoil && par4 < 256 - l - 1) {
-               block1.onPlantGrow(par1World, par3, par4 - 1, par5, par3, par4, par5);
+               block1.onPlantGrow(block1.getDefaultState(), par1World, new BlockPos(par3, par4 - 1, par5), new BlockPos(par3, par4, par5));
                int l3 = par2Random.nextInt(2);
                int i2 = 1;
                byte b0 = 0;
@@ -211,7 +211,7 @@ public class WorldGenCandyTrees extends WorldGenerator {
 
                      for(int j3 = par5 - l3; j3 <= par5 + l3; ++j3) {
                         int k3 = j3 - par5;
-                        if ((Math.abs(i3) != l3 || Math.abs(k3) != l3 || l3 <= 0) && CandyGenUtil.getBlock(par1World, l2, k2, j3).canBeReplacedByLeaves(par1World, l2, k2, j3)) {
+                        if ((Math.abs(i3) != l3 || Math.abs(k3) != l3 || l3 <= 0) && CandyGenUtil.getBlock(par1World, l2, k2, j3).canBeReplacedByLeaves(par1World.getBlockState(new BlockPos(l2, k2, j3)), par1World, new BlockPos(l2, k2, j3))) {
                            CandyGenUtil.setBlock(par1World, l2, k2, j3, CandyCraft.CandyLeave, this.metaLeaves, 3);
                         }
                      }

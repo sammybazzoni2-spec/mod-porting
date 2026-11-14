@@ -106,7 +106,7 @@ public class EntityKamikazeSlime extends EntityLiving implements IMob {
    }
 
    @Override
-   protected void updateEntityActionState() {
+   protected void updateAITasks() {
       EntityPlayer player = this.world.getNearestAttackablePlayer(this.posX, this.posY, this.posZ, 16.0D, 16.0D, null, null);
       if (player != null) {
          this.faceEntity(player, 10.0F, 20.0F);

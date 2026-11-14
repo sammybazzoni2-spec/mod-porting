@@ -313,7 +313,7 @@ public class ModelDragon extends ModelBase {
 
    public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity entity) {
       super.setRotationAngles(f, f1, f2, f3, f4, f5, entity);
-      if (entity.riddenByEntity != null) {
+      if (!entity.getPassengers().isEmpty()) {
          float rotationSpeed = 0.3F;
          this.RightWing.rotateAngleZ = (MathHelper.sin((float)entity.ticksExisted * rotationSpeed) + 1.0F) * 0.6F - 1.570796F;
          this.LeftWing.rotateAngleZ = -((MathHelper.sin((float)entity.ticksExisted * rotationSpeed) + 1.0F) * 0.6F) + 1.570796F;

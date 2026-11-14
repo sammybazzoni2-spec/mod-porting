@@ -335,7 +335,6 @@ public class WorldGenBigCandyTree extends WorldGenAbstractTree {
       }
    }
 
-   @Override
    public void setGeneratorScale(double par1, double par3, double par5) {
       this.heightLimitLimit = (int)(par1 * (double)12.0F);
       if (par1 > (double)0.5F) {

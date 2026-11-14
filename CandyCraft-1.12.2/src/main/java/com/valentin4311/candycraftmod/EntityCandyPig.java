@@ -1,7 +1,6 @@
 package com.valentin4311.candycraftmod;
 
 import net.minecraft.entity.EntityAgeable;
-import net.minecraft.entity.ai.EntityAIControlledByPlayer;
 import net.minecraft.entity.ai.EntityAIFollowParent;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAIMate;
@@ -31,7 +30,6 @@ public class EntityCandyPig extends EntityPig {
       this.tasks.taskEntries.clear();
       this.tasks.addTask(0, new EntityAISwimming(this));
       this.tasks.addTask(1, new EntityAIPanic(this, 0.38D));
-      this.tasks.addTask(2, new EntityAIControlledByPlayer(this, 0.34F));
       this.tasks.addTask(3, new EntityAIMate(this, (double)speed));
       this.tasks.addTask(4, new EntityAITempt(this, 1.0D, CandyCraft.DragibusStick, false));
       this.tasks.addTask(4, new EntityAITempt(this, 1.0D, CandyCraft.Dragibus, false));

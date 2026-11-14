@@ -111,7 +111,9 @@ public class BiomeCandyDecorator {
          int k = this.chunk_X + this.randomGenerator.nextInt(16) + 8;
          int l = this.chunk_Z + this.randomGenerator.nextInt(16) + 8;
          WorldGenerator worldgenerator = this.biome.getRandomWorldGenForTrees(this.randomGenerator);
-         worldgenerator.setGeneratorScale(1.0D, 1.0D, 1.0D);
+         if (worldgenerator instanceof WorldGenBigCandyTree) {
+            ((WorldGenBigCandyTree)worldgenerator).setGeneratorScale(1.0D, 1.0D, 1.0D);
+         }
          worldgenerator.generate(this.currentWorld, this.randomGenerator, this.currentWorld.getHeight(new BlockPos(k, 0, l)));
       }
 
