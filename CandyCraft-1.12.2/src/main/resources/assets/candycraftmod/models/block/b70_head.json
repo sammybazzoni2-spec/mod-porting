@@ -20,13 +20,20 @@
    ],
    "faces": {
     "up": {
-     "texture": "#top"
+     "texture": "#top",
+     "rotation": 90
     },
     "down": {
      "texture": "#bottom"
     },
     "east": {
-     "texture": "#side"
+     "texture": "#side",
+     "uv": [
+      16,
+      7,
+      0,
+      13
+     ]
     },
     "west": {
      "texture": "#side"
