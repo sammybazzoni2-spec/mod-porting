@@ -6,6 +6,8 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.renderer.block.statemap.StateMapperBase;
 import net.minecraft.client.renderer.color.IBlockColor;
 import net.minecraft.client.renderer.color.IItemColor;
+import net.minecraft.client.renderer.tileentity.TileEntityItemStackRenderer;
+import net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
@@ -73,6 +75,18 @@ public class CandyBlockClient {
       ClientRegistry.bindTileEntitySpecialRenderer(TileEntityCandyChest.class, new TileEntityCandyChestRenderer());
       ClientRegistry.bindTileEntitySpecialRenderer(TileEntityAlchemy.class, new TileEntityAlchemyRenderer());
       ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTeleporter.class, new TileEntityRendererTeleporter());
+      // Inventory/hand rendering of the chest item uses the real chest model instead of a block model.
+      Item chestItem = Item.getItemFromBlock(CandyCraft.CandyChest);
+      if (chestItem != null && chestItem != net.minecraft.init.Items.AIR) {
+         chestItem.setTileEntityItemStackRenderer(new TileEntityItemStackRenderer() {
+            private final TileEntityCandyChest chest = new TileEntityCandyChest();
+
+            @Override
+            public void renderByItem(ItemStack stack, float partialTicks) {
+               TileEntityRendererDispatcher.instance.render(this.chest, 0.0D, 0.0D, 0.0D, 0.0F, partialTicks);
+            }
+         });
+      }
    }
 
    @SubscribeEvent
