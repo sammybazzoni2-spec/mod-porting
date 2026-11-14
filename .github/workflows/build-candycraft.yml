@@ -44,6 +44,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: CandyCraft-jar
+          name: CandyCraft-jar-build${{ github.run_number }}
           path: template/build/libs/*.jar
           if-no-files-found: warn
