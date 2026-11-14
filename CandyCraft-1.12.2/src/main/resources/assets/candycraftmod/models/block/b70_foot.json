@@ -20,7 +20,8 @@
    ],
    "faces": {
     "up": {
-     "texture": "#top"
+     "texture": "#top",
+     "rotation": 270
     },
     "down": {
      "texture": "#bottom"
