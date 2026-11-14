@@ -54,6 +54,12 @@ public class CandyBlockClient {
    @SubscribeEvent
    public static void registerModels(ModelRegistryEvent event) {
       CandyBlockRegistry.init();
+      // Every block item needs an explicit inventory model at meta 0 (1.12 does not fall back to the registry name).
+      for (Block registered : CandyBlockRegistry.getBlocks()) {
+         if (registered.getRegistryName() != null) {
+            base(registered, 0);
+         }
+      }
       variants(CandyCraft.CandyPlanks, 1, 3);
       variants(CandyCraft.CandyLog, 1, 3);
       variants(CandyCraft.CandyLeave, 1, 3);
