@@ -6,7 +6,6 @@ import net.minecraft.world.gen.layer.GenLayer;
 import net.minecraft.world.gen.layer.IntCache;
 
 public class GenLayerCandyAddIsland extends GenLayer {
-   private static final String __OBFID = "CL_00000551";
 
    public GenLayerCandyAddIsland(long p_i2119_1_, GenLayer p_i2119_3_) {
       super(p_i2119_1_);

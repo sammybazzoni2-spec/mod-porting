@@ -11,7 +11,6 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 
 public class WorldGenWebLakes extends WorldGenerator {
    private Block field_150556_a;
-   private static final String __OBFID = "CL_00000418";
 
    public WorldGenWebLakes(Block p_i45455_1_) {
       this.field_150556_a = p_i45455_1_;

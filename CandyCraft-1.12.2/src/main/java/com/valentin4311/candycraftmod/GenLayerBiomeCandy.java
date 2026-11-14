@@ -11,7 +11,6 @@ public class GenLayerBiomeCandy extends GenLayer {
    private Biome[] field_151621_d;
    private Biome[] field_151622_e;
    private Biome[] field_151620_f;
-   private static final String __OBFID = "CL_00000555";
 
    public GenLayerBiomeCandy(long par1, GenLayer par3GenLayer, WorldType par4WorldType) {
       super(par1);

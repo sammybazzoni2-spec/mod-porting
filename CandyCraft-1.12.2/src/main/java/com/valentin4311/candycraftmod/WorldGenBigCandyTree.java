@@ -24,7 +24,6 @@ public class WorldGenBigCandyTree extends WorldGenAbstractTree {
    int heightLimitLimit = 12;
    int leafDistanceLimit = 4;
    int[][] leafNodes;
-   private static final String __OBFID = "CL_00000400";
    int meta;
 
    public WorldGenBigCandyTree(boolean par1, int metaLeaves) {
