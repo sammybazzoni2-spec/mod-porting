@@ -1,7 +1,7 @@
 {
     "textures": {
-        "particle": "candycraftmod:blocks/b40.png",
-        "portal": "candycraftmod:blocks/b40.png"
+        "particle": "candycraftmod:blocks/b40",
+        "portal": "candycraftmod:blocks/b40"
     },
     "elements": [
         {   "from": [ 0, 0, 6 ],
