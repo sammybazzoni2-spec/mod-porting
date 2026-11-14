@@ -116,12 +116,18 @@ public class TeleporterCandy extends Teleporter {
 
       par1Entity.motionX = par1Entity.motionY = par1Entity.motionZ = 0.0D;
       if (best >= 0.0D) {
-         par1Entity.setLocationAndAngles((double)i + 0.5D + 2.0D, 300.0D, (double)k + 0.5D + 2.0D, par1Entity.rotationYaw, par1Entity.rotationPitch);
+         par1Entity.setLocationAndAngles((double)i + 0.5D + 2.0D, this.groundY(i + 2, k + 2), (double)k + 0.5D + 2.0D, par1Entity.rotationYaw, par1Entity.rotationPitch);
          return true;
       } else {
-         par1Entity.setLocationAndAngles((double)l, 300.0D, (double)i1, par1Entity.rotationYaw, par1Entity.rotationPitch);
+         par1Entity.setLocationAndAngles((double)l + 0.5D, this.groundY(l, i1), (double)i1 + 0.5D, par1Entity.rotationYaw, par1Entity.rotationPitch);
          return false;
       }
+   }
+
+   private double groundY(int x, int z) {
+      this.worldServerInstance.getChunk(x >> 4, z >> 4);
+      BlockPos top = this.worldServerInstance.getTopSolidOrLiquidBlock(new BlockPos(x, 0, z));
+      return (double)Math.max(top.getY(), 1) + 1.0D;
    }
 
    @Override
