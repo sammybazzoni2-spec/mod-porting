@@ -126,8 +126,8 @@ public class CandyBlockRegistry {
       CandyCraft.ChocolateCobbleStone = c(new BlockBase(Material.ROCK), "B44", "b44", 2.0F, 10.0F, SoundType.STONE, true);
       CandyCraft.CandyWaterLily = c(new BlockCandyWaterLily(), "B45", "candypad", 0.0F, -1.0F, SoundType.PLANT, true);
       CandyCraft.DragiCrops = c(new BlockDragibus(), "B46", "b46", 0.0F, -1.0F, SoundType.PLANT, false);
-      CandyCraft.PinkAlgae = c(new BlockPinkAlgae(Material.WATER), "B47", "b47", 0.0F, -1.0F, SoundType.PLANT, true);
-      CandyCraft.GreenAlgae = c(new BlockGreenAlgae(Material.WATER), "B48", "b48", 0.0F, -1.0F, SoundType.PLANT, true);
+      CandyCraft.PinkAlgae = c(new BlockPinkAlgae(Material.PLANTS), "B47", "b47", 0.0F, -1.0F, SoundType.PLANT, true);
+      CandyCraft.GreenAlgae = c(new BlockGreenAlgae(Material.PLANTS), "B48", "b48", 0.0F, -1.0F, SoundType.PLANT, true);
       CandyCraft.CandyWorkbench = c(new BlockCandyWorkbench(), "B51", "b51", 2.5F, -1.0F, SoundType.WOOD, true);
       CandyCraft.CandyLadder = c(new BlockCandyLadder(), "B53", "b53", 2.5F, -1.0F, SoundType.LADDER, true);
       CandyCraft.CandyDoor = c(new BlockCandyDoor(Material.WOOD), "B55", "b55", 2.5F, -1.0F, SoundType.LADDER, false);
@@ -171,7 +171,7 @@ public class CandyBlockRegistry {
       opacity(CandyCraft.CottonCandyWeb, 1);
       CandyCraft.CherryBlock = c(new BlockCherry(Material.WOOD), "B81", "b81", 0.2F, -1.0F, SoundType.STONE, false);
       opacity(CandyCraft.CherryBlock, 1);
-      CandyCraft.BananaSeaweeds = c(new BlockYellowAlgae(Material.WATER), "B82", "b82", 0.0F, -1.0F, SoundType.PLANT, true);
+      CandyCraft.BananaSeaweeds = c(new BlockYellowAlgae(Material.PLANTS), "B82", "b82", 0.0F, -1.0F, SoundType.PLANT, true);
       CandyCraft.NougatOre = c(new BlockNougat(), "B91", "b91", 3.0F, 5.0F, SoundType.STONE, true);
       CandyCraft.AdvancedSugarFactory = c(new BlockSugarFactory(Material.IRON, true), "B92", "b92", 2.0F, 5.0F, SoundType.METAL, true);
       CandyCraft.PoisonousFlower = c(new BlockCandyFlower(), "B93", "b93", 0.0F, -1.0F, SoundType.PLANT, true);
