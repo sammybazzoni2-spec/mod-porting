@@ -1,64 +1,64 @@
 {
  "variants": {
   "axis=y,variant=0": {
-   "model": "candycraftmod:block/b4_0"
+   "model": "candycraftmod:b4_0"
   },
   "axis=x,variant=0": {
-   "model": "candycraftmod:block/b4_0",
+   "model": "candycraftmod:b4_0",
    "x": 90,
    "y": 90
   },
   "axis=z,variant=0": {
-   "model": "candycraftmod:block/b4_0",
+   "model": "candycraftmod:b4_0",
    "x": 90
   },
   "axis=none,variant=0": {
-   "model": "candycraftmod:block/b4_0_none"
+   "model": "candycraftmod:b4_0_none"
   },
   "axis=y,variant=1": {
-   "model": "candycraftmod:block/b4_1"
+   "model": "candycraftmod:b4_1"
   },
   "axis=x,variant=1": {
-   "model": "candycraftmod:block/b4_1",
+   "model": "candycraftmod:b4_1",
    "x": 90,
    "y": 90
   },
   "axis=z,variant=1": {
-   "model": "candycraftmod:block/b4_1",
+   "model": "candycraftmod:b4_1",
    "x": 90
   },
   "axis=none,variant=1": {
-   "model": "candycraftmod:block/b4_1_none"
+   "model": "candycraftmod:b4_1_none"
   },
   "axis=y,variant=2": {
-   "model": "candycraftmod:block/b4_2"
+   "model": "candycraftmod:b4_2"
   },
   "axis=x,variant=2": {
-   "model": "candycraftmod:block/b4_2",
+   "model": "candycraftmod:b4_2",
    "x": 90,
    "y": 90
   },
   "axis=z,variant=2": {
-   "model": "candycraftmod:block/b4_2",
+   "model": "candycraftmod:b4_2",
    "x": 90
   },
   "axis=none,variant=2": {
-   "model": "candycraftmod:block/b4_2_none"
+   "model": "candycraftmod:b4_2_none"
   },
   "axis=y,variant=3": {
-   "model": "candycraftmod:block/b4_3"
+   "model": "candycraftmod:b4_3"
   },
   "axis=x,variant=3": {
-   "model": "candycraftmod:block/b4_3",
+   "model": "candycraftmod:b4_3",
    "x": 90,
    "y": 90
   },
   "axis=z,variant=3": {
-   "model": "candycraftmod:block/b4_3",
+   "model": "candycraftmod:b4_3",
    "x": 90
   },
   "axis=none,variant=3": {
-   "model": "candycraftmod:block/b4_3_none"
+   "model": "candycraftmod:b4_3_none"
   }
  }
 }

@@ -1,16 +1,16 @@
 {
  "variants": {
   "variant=0": {
-   "model": "candycraftmod:block/b102_0"
+   "model": "candycraftmod:b102_0"
   },
   "variant=1": {
-   "model": "candycraftmod:block/b102_1"
+   "model": "candycraftmod:b102_1"
   },
   "variant=2": {
-   "model": "candycraftmod:block/b102_2"
+   "model": "candycraftmod:b102_2"
   },
   "variant=3": {
-   "model": "candycraftmod:block/b102_3"
+   "model": "candycraftmod:b102_3"
   }
  }
 }

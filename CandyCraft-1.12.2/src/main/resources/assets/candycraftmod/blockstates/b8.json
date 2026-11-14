@@ -1,28 +1,28 @@
 {
  "variants": {
   "moisture=0": {
-   "model": "candycraftmod:block/b8_0"
+   "model": "candycraftmod:b8_0"
   },
   "moisture=1": {
-   "model": "candycraftmod:block/b8_1"
+   "model": "candycraftmod:b8_1"
   },
   "moisture=2": {
-   "model": "candycraftmod:block/b8_1"
+   "model": "candycraftmod:b8_1"
   },
   "moisture=3": {
-   "model": "candycraftmod:block/b8_1"
+   "model": "candycraftmod:b8_1"
   },
   "moisture=4": {
-   "model": "candycraftmod:block/b8_1"
+   "model": "candycraftmod:b8_1"
   },
   "moisture=5": {
-   "model": "candycraftmod:block/b8_1"
+   "model": "candycraftmod:b8_1"
   },
   "moisture=6": {
-   "model": "candycraftmod:block/b8_1"
+   "model": "candycraftmod:b8_1"
   },
   "moisture=7": {
-   "model": "candycraftmod:block/b8_1"
+   "model": "candycraftmod:b8_1"
   }
  }
 }

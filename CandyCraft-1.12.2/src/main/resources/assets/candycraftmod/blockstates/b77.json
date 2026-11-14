@@ -1,7 +1,7 @@
 {
  "variants": {
   "normal": {
-   "model": "candycraftmod:block/b77"
+   "model": "candycraftmod:b77"
   }
  }
 }

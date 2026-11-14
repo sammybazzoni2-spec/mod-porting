@@ -5,7 +5,7 @@
     "variant": "0"
    },
    "apply": {
-    "model": "candycraftmod:block/b9_0"
+    "model": "candycraftmod:b9_0"
    }
   },
   {
@@ -13,7 +13,7 @@
     "variant": "1"
    },
    "apply": {
-    "model": "candycraftmod:block/b9_1"
+    "model": "candycraftmod:b9_1"
    }
   },
   {
@@ -21,7 +21,7 @@
     "variant": "2"
    },
    "apply": {
-    "model": "candycraftmod:block/b9_2"
+    "model": "candycraftmod:b9_2"
    }
   },
   {
@@ -29,7 +29,7 @@
     "variant": "3"
    },
    "apply": {
-    "model": "candycraftmod:block/b9_3"
+    "model": "candycraftmod:b9_3"
    }
   }
  ]

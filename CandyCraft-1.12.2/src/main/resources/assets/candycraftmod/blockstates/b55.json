@@ -8,7 +8,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom"
+    "model": "candycraftmod:b55_bottom"
    }
   },
   {
@@ -19,7 +19,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom_rh",
+    "model": "candycraftmod:b55_bottom_rh",
     "y": 90
    }
   },
@@ -31,7 +31,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom_rh"
+    "model": "candycraftmod:b55_bottom_rh"
    }
   },
   {
@@ -42,7 +42,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom",
+    "model": "candycraftmod:b55_bottom",
     "y": 270
    }
   },
@@ -54,7 +54,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom",
+    "model": "candycraftmod:b55_bottom",
     "y": 90
    }
   },
@@ -66,7 +66,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom_rh",
+    "model": "candycraftmod:b55_bottom_rh",
     "y": 180
    }
   },
@@ -78,7 +78,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom_rh",
+    "model": "candycraftmod:b55_bottom_rh",
     "y": 90
    }
   },
@@ -90,7 +90,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom"
+    "model": "candycraftmod:b55_bottom"
    }
   },
   {
@@ -101,7 +101,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom",
+    "model": "candycraftmod:b55_bottom",
     "y": 180
    }
   },
@@ -113,7 +113,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom_rh",
+    "model": "candycraftmod:b55_bottom_rh",
     "y": 270
    }
   },
@@ -125,7 +125,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom_rh",
+    "model": "candycraftmod:b55_bottom_rh",
     "y": 180
    }
   },
@@ -137,7 +137,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom",
+    "model": "candycraftmod:b55_bottom",
     "y": 90
    }
   },
@@ -149,7 +149,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom",
+    "model": "candycraftmod:b55_bottom",
     "y": 270
    }
   },
@@ -161,7 +161,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom_rh"
+    "model": "candycraftmod:b55_bottom_rh"
    }
   },
   {
@@ -172,7 +172,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom_rh",
+    "model": "candycraftmod:b55_bottom_rh",
     "y": 270
    }
   },
@@ -184,7 +184,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_bottom",
+    "model": "candycraftmod:b55_bottom",
     "y": 180
    }
   },
@@ -196,7 +196,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top"
+    "model": "candycraftmod:b55_top"
    }
   },
   {
@@ -207,7 +207,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top_rh",
+    "model": "candycraftmod:b55_top_rh",
     "y": 90
    }
   },
@@ -219,7 +219,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top_rh"
+    "model": "candycraftmod:b55_top_rh"
    }
   },
   {
@@ -230,7 +230,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top",
+    "model": "candycraftmod:b55_top",
     "y": 270
    }
   },
@@ -242,7 +242,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top",
+    "model": "candycraftmod:b55_top",
     "y": 90
    }
   },
@@ -254,7 +254,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top_rh",
+    "model": "candycraftmod:b55_top_rh",
     "y": 180
    }
   },
@@ -266,7 +266,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top_rh",
+    "model": "candycraftmod:b55_top_rh",
     "y": 90
    }
   },
@@ -278,7 +278,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top"
+    "model": "candycraftmod:b55_top"
    }
   },
   {
@@ -289,7 +289,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top",
+    "model": "candycraftmod:b55_top",
     "y": 180
    }
   },
@@ -301,7 +301,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top_rh",
+    "model": "candycraftmod:b55_top_rh",
     "y": 270
    }
   },
@@ -313,7 +313,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top_rh",
+    "model": "candycraftmod:b55_top_rh",
     "y": 180
    }
   },
@@ -325,7 +325,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top",
+    "model": "candycraftmod:b55_top",
     "y": 90
    }
   },
@@ -337,7 +337,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top",
+    "model": "candycraftmod:b55_top",
     "y": 270
    }
   },
@@ -349,7 +349,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top_rh"
+    "model": "candycraftmod:b55_top_rh"
    }
   },
   {
@@ -360,7 +360,7 @@
     "open": "false"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top_rh",
+    "model": "candycraftmod:b55_top_rh",
     "y": 270
    }
   },
@@ -372,7 +372,7 @@
     "open": "true"
    },
    "apply": {
-    "model": "candycraftmod:block/b55_top",
+    "model": "candycraftmod:b55_top",
     "y": 180
    }
   }

@@ -1,7 +1,7 @@
 {
  "variants": {
   "variant=default": {
-   "model": "candycraftmod:block/candyslab2"
+   "model": "candycraftmod:candyslab2"
   }
  }
 }

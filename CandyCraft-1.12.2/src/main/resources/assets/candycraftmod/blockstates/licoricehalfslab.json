@@ -1,10 +1,10 @@
 {
  "variants": {
   "half=bottom,variant=default": {
-   "model": "candycraftmod:block/licoricehalfslab"
+   "model": "candycraftmod:licoricehalfslab"
   },
   "half=top,variant=default": {
-   "model": "candycraftmod:block/licoricehalfslab_top"
+   "model": "candycraftmod:licoricehalfslab_top"
   }
  }
 }
