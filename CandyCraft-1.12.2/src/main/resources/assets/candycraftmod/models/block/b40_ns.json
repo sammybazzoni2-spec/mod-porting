@@ -1,7 +1,9 @@
 {
- "parent": "block/portal_ns",
- "textures": {
-  "portal": "candycraftmod:blocks/b40",
-  "particle": "candycraftmod:blocks/b40"
- }
+ "textures": {"portal": "candycraftmod:blocks/b40", "particle": "candycraftmod:blocks/b40"},
+ "elements": [
+  {"from": [6,0,0], "to": [10,16,16], "shade": false,
+   "faces": {
+    "east": {"uv": [0,0,16,16], "texture": "#portal"},
+    "west": {"uv": [0,0,16,16], "texture": "#portal"}}}
+ ]
 }
