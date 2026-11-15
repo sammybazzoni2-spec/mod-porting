@@ -13,7 +13,7 @@
    "faces": {
     "up": {
      "texture": "#top",
-     "rotation": 90
+     "rotation": 270
     },
     "down": {
      "texture": "#bottom"
